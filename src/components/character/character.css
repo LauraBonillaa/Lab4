@@ -1,0 +1,26 @@
+.card{
+    margin-top: 2rem;
+    display: flex;
+    font-size: larger;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#character{
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    margin-bottom: 2rem;
+    width: 40rem;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.5rem;
+    
+}
+.name{
+    font-weight: 600;
+}

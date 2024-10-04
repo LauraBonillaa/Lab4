@@ -40,15 +40,21 @@ class Character extends HTMLElement {
     render() {
         if (this.shadowRoot) {
             this.shadowRoot.innerHTML = `
+            <link rel="stylesheet" href="../src/components/character/character.css">
             <section>
+            <div  class="card">
+            <div id="character">
             <img id="img" src="${this.image ? this.image : 'Not found'}">
-            <p>${this.name}</p>
+            <div class="text">
+            <p class="name">${this.name}</p>
             <p>${this.status}</p>
             <p>${this.species}</p>
             <p>${this.type}</p>
             <p>${this.origin}</p>
             <p>${this.episode}</p>
-
+            </div>
+            </div>
+</div>
             
             </section>
             `;
